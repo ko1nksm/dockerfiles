@@ -1,3 +1,6 @@
 [submodule "ko1nksm/bash"]
 	path = ko1nksm/bash
 	url = git@github.com:ko1nksm/bash.git
+[submodule "ko1nksm/docker-client"]
+	path = ko1nksm/docker-client
+	url = git@github.com:ko1nksm/docker-client.git
