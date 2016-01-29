@@ -4,3 +4,6 @@
 [submodule "ko1nksm/docker-client"]
 	path = ko1nksm/docker-client
 	url = git@github.com:ko1nksm/docker-client.git
+[submodule "ko1nksm/devdns/latest"]
+	path = ko1nksm/devdns/latest
+	url = git@github.com:ko1nksm/devdns.git
