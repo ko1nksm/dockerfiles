@@ -4,3 +4,9 @@
 [submodule "ko1nksm/devdns/latest"]
 	path = ko1nksm/devdns/latest
 	url = git@github.com:ko1nksm/devdns.git
+[submodule "ko1nksm/docker-events-plugin/latest"]
+	path = ko1nksm/docker-events-plugin/latest
+	url = git@github.com:ko1nksm/docker-events-plugin.git
+[submodule "ko1nksm/docker-nsupdate-plugin/latest"]
+	path = ko1nksm/docker-nsupdate-plugin/latest
+	url = git@github.com:ko1nksm/docker-nsupdate-plugin.git
