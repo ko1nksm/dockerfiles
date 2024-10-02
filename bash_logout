@@ -1,7 +1,7 @@
-# ~/.bash_logout: executed by bash(1) when login shell exits.
+echo "bash_logout loaded" >&2
 
-# when leaving the console clear the screen to increase privacy
-
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+if [ -r "$DOTROOT/$DOTNAME/bash_logout" ]; then
+  . "$DOTROOT/$DOTNAME/bash_logout"
+elif [ -r "$DOTROOT/default/bash_logout" ]; then
+  . "$DOTROOT/default/bash_logout"
 fi
