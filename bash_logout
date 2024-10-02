@@ -1,3 +1,4 @@
+# .bash_logout
 echo "bash_logout loaded" >&2
 
 if [ -r "$DOTROOT/$DOTNAME/bash_logout" ]; then

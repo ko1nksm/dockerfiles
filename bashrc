@@ -1,3 +1,4 @@
+# .bashrc
 echo "bashrc loaded" >&2
 
 if [ -r "$DOTROOT/$DOTNAME/bashrc" ]; then

@@ -54,3 +54,4 @@ fi
 symlink ~/.profile "$base/profile"
 symlink ~/.bashrc "$base/bashrc"
 symlink ~/.bash_logout "$base/bash_logout"
+symlink ~/.vimrc "$base/vimrc"
