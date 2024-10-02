@@ -9,3 +9,7 @@ if [ -r "$DOTROOT/$DOTNAME/profile" ]; then
 elif [ -r "$DOTROOT/default/profile" ]; then
   . "$DOTROOT/default/profile"
 fi
+
+if [ -x ~/.ssh/wsl2-ssh-pageant.exe ]; then
+  . "$DOTROOT/wsl2-ssh-pageant"
+fi
