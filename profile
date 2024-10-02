@@ -18,3 +18,5 @@ fi
 if [ -x ~/.ssh/wsl2-ssh-pageant.exe ]; then
   . "$DOTROOT/wsl2-ssh-pageant"
 fi
+
+export TZ=Asia/Tokyo
