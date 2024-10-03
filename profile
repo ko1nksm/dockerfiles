@@ -15,8 +15,13 @@ if type vim >/dev/null 2>&1; then
   export EDITOR=vim
 fi
 
-if [ -x ~/.ssh/wsl2-ssh-pageant.exe ]; then
-  . "$DOTROOT/wsl2-ssh-pageant"
+# Slow connection
+#if [ -x ~/.ssh/wsl2-ssh-pageant.exe ]; then
+#  . "$DOTROOT/wsl2-ssh-pageant"
+#fi
+if [ -r ~/.keychain/$HOSTNAME-sh ]; then
+  keychain -q --nogui $HOME/.ssh/id_rsa
+  . ~/.keychain/$HOSTNAME-sh
 fi
 
 export TZ=Asia/Tokyo
